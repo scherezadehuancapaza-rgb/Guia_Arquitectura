@@ -30,7 +30,7 @@ Fase 2: Estructura de Carpetas (Clean Architecture)
 El objetivo es aplicar el Principio de Responsabilidad Única (SRP) separando el código por capas lógicas.
 
 Crear la siguiente estructura de directorios:
-
+```text
 text
 proyecto/
 ├── datos/               # Archivos Excel/CSV (Insumos)
@@ -43,7 +43,7 @@ proyecto/
 ├── configuracion.py     # Variables de entorno y configuraciones
 └── importar_datos.py    # Script para poblar la base de datos
 Nota: Crear un archivo __init__.py vacío en cada carpeta para que Python las reconozca como paquetes.
-
+```
 Fase 3: Capa de Infraestructura y Datos
 El objetivo es aislar la base de datos para que, si cambiamos de motor (ej. de SQLite a PostgreSQL), no afecte al resto del sistema.
 
