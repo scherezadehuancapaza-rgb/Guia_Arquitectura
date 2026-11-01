@@ -1,0 +1,9 @@
+Flask
+pandas
+openpyxl
+rapidfuzz
+Unidecode
+APScheduler
+python-dotenv
+pytest
+flake8

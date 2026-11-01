@@ -1,0 +1,24 @@
+# Entorno virtual de Python
+venv/
+env/
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Base de datos local
+*.db
+*.sqlite3
+
+# Variables de entorno secretas (NUNCA subir .env)
+.env
+
+# Caché de pruebas y linters
+.pytest_cache/
+.flake8_cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
